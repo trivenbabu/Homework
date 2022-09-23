@@ -10,7 +10,7 @@
 </head>
 <body style="text-align: center">
 	<%
-	session.removeAttribute("username");
+	session.removeAttribute("empName");
 	session.invalidate();
 	%>
 

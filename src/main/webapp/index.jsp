@@ -8,19 +8,19 @@
 <link type="text/css" rel="stylesheet" href="css/style.css">
 </head>
 <body>
-	<div class="wrapper">
+	<div class="wrapper" >
 	
-		<form action = "Login" method = "post" class="login-register-form">
+		<form action = "Login" method = "post" class="login-register-form" style="background-color:#d3d3d3; height:30%;width:30%" >
 			<h2 align="center"> Login </h2>
-			<div class="container">
+			<div class="container" >
 		
 				<label> <b> Employee Id </b> </label>
-				<input type="text" name="empId" placeholder="Enter Employee Id"> <br>
+				<input type="text" name="empId"> <br>
 				
 				<label> <b> Employee Name </b> </label>
-				<input type="text" name="empName" placeholder="Enter Employee name"> <br>
+				<input type="text" name="empName"> <br>
 				
-				<input type="submit" value="Login" class="submit-button"> <br>
+				<input type="submit" value="Login" class="submit-button" style="margin-right:130px"> <br>
 				<input type="checkbox" value = "Remember password"> Remember password
 				
 				<a href="register.jsp"> New User? </a>

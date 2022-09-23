@@ -12,7 +12,7 @@ public class JDBCConnection {
 
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
-			connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/soprasteria", "root", "sopra@2022");
+			connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/soprasteria", "root", "Sopraroot1.2");
 			return connection;
 
 		} catch (ClassNotFoundException e) {

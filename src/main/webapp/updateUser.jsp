@@ -8,13 +8,13 @@
 <link type="text/css" rel="stylesheet" href ="css/style.css">
 </head>
 <body>
-		<form action = "Update" method="post">
+		<form action = "Update" method="get">
 			<div class = "container">
 				<label> Enter the Employee id to update their profile </label>
-				<input type="text" name = "empId" placeholder="Enter username"><br>
+				<input type="text" name = "empId" placeholder="Enter employee id"><br>
 				
 				<label> Enter the updated Employee name </label>
-				<input type="text" name = "empName" placeholder="Enter username"><br>
+				<input type="text" name = "empName" placeholder="Enter employee name"><br>
 				
 				<input type="submit" value="Update" class = "submitbutton">
 			</div>

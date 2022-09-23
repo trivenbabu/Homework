@@ -8,13 +8,15 @@ body {
 .wrapper {
   display: flex;
   justify-content: center;
+  
 }
 
 .login-register-form {
 	width: 40%;
 	padding: 30px;
 	border-radius: 10px;
-	background-color: rgba(208, 188, 188, 0.17);
+	background-color:grey;
+/*background-color: rgba(208, 188, 188, 0.17);*/
 	box-shadow: 0px 15px 25px gray;
 }
 
@@ -28,6 +30,8 @@ body {
 
 .container {
 	padding: 5px;
+	background-color:yellow;
+	
 }
 
 label {
@@ -48,8 +52,8 @@ input[type=text], input[type=email] {
 }
 
 .submit-button {
-	display: block;
-	margin-left: auto;
+	display: flex;
+	margin-left: 70px;
 	border: none;
 	outline: none;
 	background: lightgreen;
@@ -59,6 +63,7 @@ input[type=text], input[type=email] {
 	padding: 10px 20px;
 	border-radius: 5px;
 	cursor: pointer;
+	justify-content:center;
 }
 
 .submit-button:hover {

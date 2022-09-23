@@ -19,7 +19,7 @@ public class Register extends HttpServlet {
   
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		RegisterDAO dao = new RegisterDAO();
-		String empId = request.getParameter("empId");
+		int empId = Integer.valueOf(request.getParameter("empId"));
 		String empName = request.getParameter("empName");
 		String empEmail = request.getParameter("empEmail");
 		
